@@ -1,0 +1,11 @@
+.mainbrand{
+  display:flex;
+  flex-direction:row;
+ position:relative;
+ top:-560px;
+
+}
+.mainbrand img{
+  padding-left:200px;
+  height:100px;
+}

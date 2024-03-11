@@ -1,0 +1,17 @@
+
+.footer{
+    position:relative;
+    top:150px;
+    background:rgb(206,14,14);    
+}
+@media screen and (max-width:768px){
+    .footer a{
+        display:none;
+    }
+    .footer{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
+}

@@ -1,0 +1,52 @@
+.maincard{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    height:300px;
+}
+.maincard img{
+    width:60%;
+    display:flex;
+    position:relative;
+    left:20%;
+   
+}
+
+.card{
+    position:relative;
+    top:40px;
+    width:65%;
+    height:250px;
+    box-shadow:2px 2px 2px  2px gray;
+    color:black;
+}
+.card :hover{
+    transition: all 0.3s ease;
+}
+.card h2{
+    display:flex;
+   padding-left:20px;
+   font-size:18px;
+   color:black;
+}
+.card p{
+    padding-left:20px;
+    color:gray;
+}
+.card button{
+    border-radius:5px;
+    float:right;
+    margin-right:20px;
+    height:40px;
+    width:80px;
+    background-color:rgb(206,14,14);
+    color:white;
+    cursor:pointer;
+}
+.price{
+    position:relative;
+    top:30px;
+    color:black;
+    right:-50px;
+}

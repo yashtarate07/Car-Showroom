@@ -1,0 +1,54 @@
+.mainget{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+.upget{
+    position:relative;
+    top:40px;
+    left:-32%;
+}
+.upget h1{
+    color:black;
+    font-size:30px;
+}
+.upget button{
+    position:relative;
+    left:300%;
+    top:-35px;
+    border:1px solid rgb(206, 14, 14);
+    width:27%;
+    height:35px;
+    color:rgb(206, 14, 14);
+}
+.lowerget{
+    border:1px solid black;
+    border-radius:20px;
+    height:400px;
+    width:80%;
+    margin-top:50px;
+    background:radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.lowerget ul{
+    position:relative;
+    top:30px;
+    left:5%;
+}
+.lowerget li{
+    font-size:20px;
+    padding-top:15px;
+    color:white;
+}
+.lowerget li:hover{
+    color:rgb(206, 14, 14);
+    cursor: pointer;
+}
+.rightmain img {
+    height:100%;
+}

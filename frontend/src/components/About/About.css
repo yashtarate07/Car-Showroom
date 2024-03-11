@@ -1,0 +1,32 @@
+.about-us-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-us-content {
+    text-align: center;
+}
+
+.about-us-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-us-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.about-us-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}

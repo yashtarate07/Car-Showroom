@@ -1,0 +1,13 @@
+.navbar ul{
+    font-size:16px;
+   font-family:open-sans, sans-serif; 
+   color:white;
+   text-decoration:none;
+}
+
+.navbar a:hover{
+    transaction:scale(1.5);
+    text-decoration:underline;
+    text-decoration-color:#c8102e;
+    
+}

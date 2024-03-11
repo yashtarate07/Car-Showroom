@@ -1,0 +1,30 @@
+.container{
+    position:relative;
+    top:50px;
+}
+.container h1{
+    font-size:40px;
+    color:black;
+}
+.button-row{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-items:row;
+    gap:50px;
+    padding-top:40px;
+}
+.button-row button{
+    height:20px;
+    background:none;
+    color:black;
+}
+.logo{
+    width:30px;
+}
+
+@media screen and (max-width:760px){
+    .button-row{
+        display:none;
+    }
+}
